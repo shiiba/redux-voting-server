@@ -19,11 +19,17 @@
     "mocha": "2.4.5"
   },
   "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-react": "^6.3.0",
     "immutable": "3.7.6",
     "redux": "3.3.1",
     "socket.io": "1.4.5"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
